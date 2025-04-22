@@ -7,39 +7,46 @@
   <style>
     body {
       font-family: 'Noto Sans Bengali', sans-serif;
-      background: #f0f8f5;
+      background: #e8f5e9;
       margin: 0;
       padding: 0;
-      color: #333;
+      color: #2e7d32;
     }
     header {
-      background: #4caf50;
+      background: #43a047;
       color: white;
       padding: 20px;
       text-align: center;
     }
     .container {
       padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    .product {
-      background: white;
-      border-radius: 8px;
-      padding: 15px;
-      margin-bottom: 20px;
+    h2 {
+      border-bottom: 2px solid #66bb6a;
+      padding-bottom: 5px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .product img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
     .contact {
-      background: #e0f2f1;
+      background: #c8e6c9;
       padding: 15px;
-      border-radius: 8px;
+      border-radius: 10px;
       text-align: center;
+      margin-top: 30px;
     }
     .button {
-      background: #388e3c;
+      background: #2e7d32;
       color: white;
       padding: 10px 20px;
       text-decoration: none;
@@ -50,7 +57,7 @@
     .social-links a {
       display: block;
       margin: 5px 0;
-      color: #2e7d32;
+      color: #1b5e20;
       text-decoration: none;
     }
   </style>
@@ -61,21 +68,31 @@
     <p>খাতার কভার, কবুতর ও প্রজেক্ট কিনুন অনলাইনে।</p>
   </header>
   <div class="container">
-    <div class="product">
-      <h2>খাতার ডিজাইন কভার</h2>
-      <img src="https://via.placeholder.com/400x200.png?text=খাতার+কভার" alt="খাতার কভার">
-      <p>দাম: ৫০ টাকা</p>
+
+    <h2>খাতার ডিজাইন কভার</h2>
+    <div class="gallery">
+      <img src="https://i.ibb.co/9NChWwC/notebook1.jpg" alt="Notebook 1">
+      <img src="https://i.ibb.co/s6npPxg/notebook2.jpg" alt="Notebook 2">
+      <img src="https://i.ibb.co/fxVb7xF/notebook3.jpg" alt="Notebook 3">
+      <img src="https://i.ibb.co/X5XhVj6/notebook4.jpg" alt="Notebook 4">
     </div>
-    <div class="product">
-      <h2>কবুতর</h2>
-      <img src="https://via.placeholder.com/400x200.png?text=কবুতর" alt="কবুতর">
-      <p>দাম: ৩০০ টাকা</p>
+
+    <h2>কবুতর</h2>
+    <div class="gallery">
+      <img src="https://i.ibb.co/5YcPfD7/pigeon1.jpg" alt="Pigeon 1">
+      <img src="https://i.ibb.co/hsRkntK/pigeon2.jpg" alt="Pigeon 2">
+      <img src="https://i.ibb.co/jGLwCQD/pigeon3.jpg" alt="Pigeon 3">
+      <img src="https://i.ibb.co/TK38dVp/pigeon4.jpg" alt="Pigeon 4">
     </div>
-    <div class="product">
-      <h2>হস্তনির্মিত প্রজেক্ট</h2>
-      <img src="https://via.placeholder.com/400x200.png?text=প্রজেক্ট" alt="প্রজেক্ট">
-      <p>দাম: ২০০ টাকা</p>
+
+    <h2>হস্তনির্মিত প্রজেক্ট</h2>
+    <div class="gallery">
+      <img src="https://i.ibb.co/jMkXWzN/project1.jpg" alt="Project 1">
+      <img src="https://i.ibb.co/KD46K1d/project2.jpg" alt="Project 2">
+      <img src="https://i.ibb.co/3zDMM8K/project3.jpg" alt="Project 3">
+      <img src="https://i.ibb.co/BVHztPK/project4.jpg" alt="Project 4">
     </div>
+
     <div class="contact">
       <h3>অর্ডার করতে যোগাযোগ করুন:</h3>
       <p>মোবাইল: 01844765643</p>
@@ -86,6 +103,7 @@
         <a href="mailto:Chobbirahmd528@gmail.com">ইমেইল: Chobbirahmd528@gmail.com</a>
       </div>
     </div>
+
   </div>
 </body>
 </html>
